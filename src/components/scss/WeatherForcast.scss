@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+  // background-color:  #1d1d2c;
+}
+
+
+.clear_sky {
+  background: url("https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg") no-repeat center center/cover;
+}
+
+.rain_sky {
+  background: url("https://th.bing.com/th/id/R.fd910ea78322031d4a9bdd4b9258f4c8?rik=Ij%2bieQ1xXCSrLA&pid=ImgRaw&r=0") no-repeat center center/cover;
+}
+
+.thunder_sky {
+  background: url("https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg") no-repeat center center/cover;
+}
+
+.snow_sky {
+  background: url("https://th.bing.com/th/id/R.ddc108f5651abd4e34f71e117ba7f836?rik=fca83xDLppuUcQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f3%2f5%2f2%2f348580.jpg&ehk=YPxWMkC8yzJCpPUdtlvJNs5DQVSw7al%2fnYDOOupz34w%3d&risl=&pid=ImgRaw&r=0") no-repeat center center/cover;
+}
+
+.mist_sky {
+  background: url("https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg") no-repeat center center/cover;
+}
+
+.cloudy_sky {
+  background: url("https://tr.rbxcdn.com/c66b192b168a95b80ce83176795ce5f3/500/280/Image/Jpeg") no-repeat center center/cover;
+}
+
+.weather {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  // background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  overflow: hidden;
+
+
+
+  &::before {
+    content: "";
+    // background: url("https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg") no-repeat center center/cover;
+    background-color:  #1d1d2c ;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+
+
+.weather {
+  p {
+    font-size: 1.6rem;
+
+
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+}
+
+
+.container {
+  max-width: 700px;
+  height: 600px;
+  margin: auto;
+  padding: 0 1rem;
+  position: relative;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .top {
+    // width: 100%;
+    font-size: 7rem;
+    margin: 1rem auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+
+    .description {
+      position: relative;
+    }
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-bottom: 50px;
+  }
+}
+
+
+.bold {
+  font-weight: 700;
+}
+
+
+.search {
+  text-align: center;
+  padding: 1rem;
+
+
+  input {
+    padding: 1rem 4rem;
+    font-size: 2.5rem;
+    margin-top: 8rem;
+    outline: none;
+    font-weight: 400;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.133);
+    background-color: rgba(255, 255, 255, 0.423);
+    color: black;
+
+    &::placeholder {
+      color: black;
+
+    }
+  }
+}

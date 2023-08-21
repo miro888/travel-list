@@ -1,0 +1,42 @@
+[
+  {
+    "cityName": "Batumi",
+    "markerCoordinates": [41.6416, 41.6356],
+    "polylineCoordinates": [
+      [41.6416, 41.6356],
+      [41.7151, 44.8271]
+    ]
+  },
+  {
+    "cityName": "Kutaisi",
+    "markerCoordinates": [42.2674, 42.6946],
+    "polylineCoordinates": [
+      [41.7151, 44.8271],
+      [42.2674, 42.6946]
+    ]
+  },
+  {
+    "cityName": "Ananuri",
+    "markerCoordinates": [42.1615, 44.7572],
+    "polylineCoordinates": [
+      [41.7151, 44.8271],
+      [42.1615, 44.7572]
+    ]
+  },
+  {
+    "cityName": "Tusheti",
+    "markerCoordinates": [42.3453, 45.2825],
+    "polylineCoordinates": [
+      [41.7151, 44.8271],
+      [42.3453, 45.2825]
+    ]
+  },
+  {
+    "cityName": "Gomis Mta",
+    "markerCoordinates": [41.9308, 44.6229],
+    "polylineCoordinates": [
+      [41.7151, 44.8271],
+      [41.9308, 44.6229]
+    ]
+  }
+]

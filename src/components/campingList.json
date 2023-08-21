@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Batumi Beach Camp",
+    "location": "Batumi, Georgia",
+    "description": "A popular beachfront camping spot with stunning views of the Black Sea.",
+    "imgSrc": "https://th.bing.com/th/id/R.2e4578fe82d05fe9050bfcbd36a1de12?rik=HZz0c9Mrm0MOVw&pid=ImgRaw&r=0"
+  },
+  {
+    "name": "Green Oasis Campground",
+    "location": "Batumi, Georgia",
+    "description": "A serene camping area surrounded by lush greenery and nature.",
+    "imgSrc": "https://th.bing.com/th/id/R.93dad5ff0cfbf123b177ab87cc32c707?rik=gb%2fSqfIJyZ1MWg&pid=ImgRaw&r=0"
+  },
+  {
+    "name": "Sunset Bay Camping",
+    "location": "Batumi, Georgia",
+    "description": "Camp by the bay and enjoy beautiful sunsets over the water.",
+    "imgSrc": "https://th.bing.com/th/id/R.80dd90b7998142a63b10117b04e8bbe7?rik=aRhfrNfrJ1Oi2w&pid=ImgRaw&r=0"
+  },
+  {
+    "name": "Mountain View Campsite",
+    "location": "Batumi, Georgia",
+    "description": "Get closer to nature with this campsite offering breathtaking mountain views.",
+    "imgSrc": "https://th.bing.com/th/id/OIP.fnT--y4uVmczYuFml4FEBQHaEo?pid=ImgDet&rs=1"
+  },
+  {
+    "name": "Tusheti Wilderness Camp",
+    "location": "Tusheti, Georgia",
+    "description": "Embark on an adventure in the remote and wild landscapes of Tusheti.",
+    "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1rhEKglqk7Wimk6kZe-Tl5AyIToYT72m60e0WJuxNJxpxkviM503uzcQV3wy1LM6BdLs&usqp=CAU"
+  },
+  {
+    "name": "Gomis Mta Retreat",
+    "location": "Gomis Mta, Georgia",
+    "description": "Find tranquility and solitude at the heart of the Gomis Mta region.",
+    "imgSrc": "https://mbg.ge/uploads/locblogs/large/6351f709b866dec6cd2800704f2d1eff.png"
+  }
+]

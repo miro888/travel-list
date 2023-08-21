@@ -1,0 +1,38 @@
+/* CampingZone.css */
+
+.camping-container {
+  padding: 20px;
+}
+
+.camping-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.camping-card:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.camping-description {
+  margin-top: 10px;
+}
+
+.camping-location {
+  margin-top: 10px;
+  color: #555;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

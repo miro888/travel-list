@@ -1,0 +1,46 @@
+@import "~leaflet/dist/leaflet.css";
+
+#map {
+    width: 50%;
+    height: 400px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ruka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .MuiInputLabel-root {
+        color: rgba(204, 200, 200, 0.503);
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .MuiOutlinedInput-notchedOutline {
+        border-radius: 25px;
+        border-color: rgba(235, 229, 229, 0.503);
+    }
+
+    .MuiTextField-root {
+        border-radius: 25px;
+        font-size: 25px;
+    }
+
+    .MuiOutlinedInput-root {
+        color: rgba(235, 229, 229, 0.503);
+        font-size: 1.5rem;
+        font-weight: 600;
+
+    }
+
+}
+
+body {
+    background: #1d1d2c;
+    // font-size: 25px;
+
+}
